@@ -16,7 +16,7 @@ html
 	margin-left: 37px;
 	margin-right: 37px;
 	color: #535353;
-	padding-top: 5vh; 
+	padding-top: 5vh;
 	}
 
 	#phone{
@@ -30,7 +30,7 @@ html
 
 	.scroll-container {
   	height: 100vh;
-	width: 100vw;
+  	width: 100vw;
   	overflow-y: scroll;
   	scroll-snap-type: y mandatory;
 	}
@@ -60,21 +60,21 @@ html
  	align-items: center;
 	}
 
-	#page1_1{
-	width: 100vw;
-	margin: 0 0 0 -5;
-	display: flex;
- 	justify-content: center;
- 	align-items: center;
+	.fixed-pos {
+		position: fixed;
+		height: 50%;
+		width: 5%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.scroll-phone {
+		overflow-y: scroll;
 	}
 
 	#page1_1{
-	width: 100vw;
-	margin: 0 0 0 -5;
-	display: flex;
- 	justify-content: center;
- 	align-items: center;
 	}
+
 
 	#page2{
 	background-image: url("../ressources/images/content2_temp.jpeg");
@@ -99,4 +99,3 @@ html
 	width: 100vw;
 	margin: 0 0 0 -5;
 	}
-	
